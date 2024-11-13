@@ -1,4 +1,0 @@
-# nixpacks.toml
-
-[start]
-cmd = "java -jar $(find ./target -name '*.jar' ! -name '*SNAPSHOT*') migrate && java -jar $(find ./target -name '*.jar' ! -name '*SNAPSHOT*')"
